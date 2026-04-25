@@ -11,13 +11,13 @@
 }
 
 .dark {
-    --bg-color: #0b0c10;
-    --text-color: #f8fafc;
-    --card-bg: rgba(20, 22, 30, 0.6);
-    --card-border: rgba(255, 255, 255, 0.05);
+    --bg-color: #000000;
+    --text-color: #ededed;
+    --card-bg: rgba(10, 10, 10, 0.7);
+    --card-border: rgba(255, 255, 255, 0.12);
     --accent: #818cf8;
     --accent-hover: #a5b4fc;
-    --shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     --glow-1: rgba(99, 102, 241, 0.15);
     --glow-2: rgba(236, 72, 153, 0.15);
 }
