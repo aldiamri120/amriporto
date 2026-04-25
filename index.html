@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Portfolio of a Senior Creative Developer & UI/UX Designer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background glowing orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <main class="container">
+        <header>
+            <h1>Creative Developer</h1>
+            <nav>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+            </nav>
+        </header>
+
+        <section class="bento-grid">
+            <!-- Hero Card -->
+            <article class="bento-item hero" style="--delay: 0.1s">
+                <div class="card-inner">
+                    <img src="assets/profile.png" alt="Profile Avatar" class="avatar">
+                    <div class="hero-content">
+                        <h2>Hello, I'm <span class="accent">Amri</span></h2>
+                        <p>Senior Creative Developer & UI/UX Designer specializing in award-winning web aesthetics.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Availability -->
+            <article class="bento-item availability" style="--delay: 0.2s">
+                <div class="card-inner flex-center">
+                    <div class="status-indicator">
+                        <div class="pulse-dot"></div>
+                        <span>Status: Fulltime</span>
+                    </div>
+                    <p class="status-sub">Available for new opportunities</p>
+                </div>
+            </article>
+
+            <!-- Skill Marquee -->
+            <article class="bento-item skills" style="--delay: 0.3s">
+                <div class="card-inner">
+                    <h3>Tech Stack</h3>
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                            <span>React</span>
+                            <span>WebGL</span>
+                            <span>Three.js</span>
+                        </div>
+                        <div class="marquee-content" aria-hidden="true">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                            <span>React</span>
+                            <span>WebGL</span>
+                            <span>Three.js</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 1 -->
+            <article class="bento-item project" style="--delay: 0.4s">
+                <div class="card-inner p-0">
+                    <div class="project-img-container">
+                        <img src="assets/project1.png" alt="Futuristic Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nexus Dashboard</h3>
+                        <p>Futuristic UI Concept</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="bento-item project" style="--delay: 0.5s">
+                <div class="card-inner p-0">
+                    <div class="project-img-container">
+                        <img src="assets/project2.png" alt="E-commerce App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Aura Store</h3>
+                        <p>Mobile Glassmorphism</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Stats/Experience -->
+            <article class="bento-item stats" style="--delay: 0.6s">
+                <div class="card-inner stat-grid">
+                    <div class="stat-box">
+                        <span class="stat-num">5+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">Awwwards</span>
+                        <span class="stat-label">Style Focus</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Contact -->
+            <article class="bento-item contact" style="--delay: 0.7s">
+                <div class="card-inner flex-center">
+                    <h3>Let's build something beautiful.</h3>
+                    <a href="mailto:hello@example.com" class="btn-primary">Get in Touch <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
